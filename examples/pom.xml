@@ -114,6 +114,11 @@
       <artifactId>parquet-hadoop-bundle</artifactId>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>io.delta</groupId>
+      <artifactId>delta-core_${scala.binary.version}</artifactId>
+      <version>0.5.0</version>
+    </dependency>
   </dependencies>
 
   <build>
